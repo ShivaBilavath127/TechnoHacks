@@ -21,7 +21,6 @@ def call_convert(rlabel1,  inputn):
                             "Successfully converted to Celsius ")
     return
 root = tk.Tk()
-root.geometry('200x150 + 600 + 200')
 root.title('Temperature Converter')
 root.grid_columnconfigure(1, weight = 1)
 root.grid_rowconfigure(1, weight = 1)
